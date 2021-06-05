@@ -1,0 +1,125 @@
+﻿  JsonValue.cpp
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\JsonValue.cpp(114,12): error C3861: 'deserialize': identifier not found
+  Parse.cpp
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,19): error C3646: 'json_parse': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,35): error C2275: 'std::vector<ParserJson::Parse::token,std::allocator<ParserJson::Parse::token>>': illegal use of this type as an expression
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40): message : see declaration of 'std::vector<ParserJson::Parse::token,std::allocator<ParserJson::Parse::token>>'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,49): error C2146: syntax error: missing ')' before identifier 'v'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,66): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,19): error C3646: 'parse': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,25): error C2059: syntax error: 'const'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,48): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,19): error C3646: 'parse_file': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,30): error C2059: syntax error: 'const'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,53): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,18): error C2039: 'json_parse': is not a member of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(16): message : see declaration of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,36): error C2065: 'token': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,29): error C2923: 'std::vector': 'token' is not a valid template type argument for parameter '_Ty'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,29): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(416): message : see declaration of 'std::vector'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(189,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(189,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(189,22): error C2065: 'CROUSH_OPEN': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(192,19): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(192,19): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(192,29): error C2065: 'CROUSH_CLOSE': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(193,29): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(193,29): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(196,46): error C2664: 'ParserJson::JsonValue json_parse(std::vector,int,int &)': cannot convert argument 1 from 'std::vector' to 'std::vector'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(196,46): message : Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,28): message : see declaration of 'json_parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(199,16): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(199,16): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(199,30): error C2065: 'COMMA': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(204,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(204,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(204,22): error C2065: 'BRACKET_OPEN': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(207,19): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(207,19): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(207,29): error C2065: 'BRACKET_CLOSE': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(209,46): error C2664: 'ParserJson::JsonValue json_parse(std::vector,int,int &)': cannot convert argument 1 from 'std::vector' to 'std::vector'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(209,46): message : Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(187,28): message : see declaration of 'json_parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(212,16): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(212,16): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(212,30): error C2065: 'COMMA': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(217,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(217,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(217,22): error C2065: 'NUMBER': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(219,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(219,31): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(223,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(223,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(223,22): error C2065: 'STRING': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(225,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(225,31): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(229,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(229,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(229,22): error C2065: 'BOOLEAN': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(231,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(231,31): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(235,8): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1514,27): message : could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(1504,21): message : or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(235,8): message : while trying to match the argument list '(std::vector, int)'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(235,22): error C2065: 'NUL': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(244,18): error C2039: 'parse': is not a member of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(16): message : see declaration of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(246,23): error C3861: 'tokenize': identifier not found
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(248,18): error C2039: 'parse_file': is not a member of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(16): message : see declaration of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.cpp(254,19): error C2039: 'parse': is not a member of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(16): message : see declaration of 'ParserJson::Parse'
+  ParserJson.cpp
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,19): error C3646: 'json_parse': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,35): error C2275: 'std::vector<ParserJson::Parse::token,std::allocator<ParserJson::Parse::token>>': illegal use of this type as an expression
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40): message : see declaration of 'std::vector<ParserJson::Parse::token,std::allocator<ParserJson::Parse::token>>'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,49): error C2146: syntax error: missing ')' before identifier 'v'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(40,66): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,19): error C3646: 'parse': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,25): error C2059: syntax error: 'const'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(43,48): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,19): error C3646: 'parse_file': unknown override specifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,30): error C2059: syntax error: 'const'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(44,53): error C2238: unexpected token(s) preceding ';'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,17): error C2039: 'jValue': is not a member of 'ParserJson'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(13): message : see declaration of 'ParserJson'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,24): error C2065: 'jValue': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,24): error C2146: syntax error: missing ';' before identifier 'v'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,24): error C2065: 'v': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,47): error C2039: 'parse': is not a member of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\Parse.h(16): message : see declaration of 'ParserJson::Parse'
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(21,52): error C3861: 'parse': identifier not found
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(22,13): error C2065: 'v': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(27,13): error C2065: 'v': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(28,9): error C2065: 'v': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(30,17): error C2065: 'v': undeclared identifier
+D:\My_workspace\my_perso_C_plus_plus_space\Test4D\ParserJson\ParserJson\ParserJson.cpp(31,17): error C2065: 'v': undeclared identifier
+  Generating Code...
